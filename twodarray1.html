@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>twod</title>
+<style type=text/css>
+div{
+    color:rgb(251, 251, 246);
+    background-color: rgb(224, 14, 45);
+    margin: 0px;
+    font-size: 20px;
+    background-size:0%;
+}
+a 
+   {
+    float:right;
+   }
+a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(212, 239, 218);
+    padding:5px 20px;
+    border:2px solid;
+    background-color: blue;
+}
+body
+    {
+        background: linear-gradient(
+                        to right,
+                        rgb(15, 115, 60) 45%,
+                        rgba(240, 240, 31, 0.82));
+        color: rgb(221, 231, 231);
+    }
+</style>
+</head>
+<body>
+<div><h4>&nbsp;Taking input using Scanner class in 2D Array</h3></div>
+<code><h4><font size="4px">
+import java.util.Scanner;<br>
+class TwoDArray1<br>
+{<br>
+&nbsp;public static void main(String x[])<br>
+&nbsp;{<br>
+&nbsp;&nbsp;int arr[][]; //Array declaration<br>
+&nbsp;&nbsp;arr=new int[2][2];<br>
+&nbsp;&nbsp;Scanner s=new Scanner(System.in);<br>
+&nbsp;&nbsp;System.out.println("Enter the array elements");<br>
+&nbsp;&nbsp;for(int i=0;i<2;i++)<br>
+&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;for(int j=0;j<2;j++)<br>
+&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;arr[i][j]=s.nextInt();<br>
+&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;System.out.println("Display the array elements");<br>
+&nbsp;&nbsp;for(int i=0;i<2;i++)<br>
+&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;for(int j=0;j<2;j++)<br>
+&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;System.out.println(arr[i][j]);<br>
+&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;}<br>
+&nbsp;}<br>
+}<br>
+</font></h4></code>
+<div><h4><b>&nbsp;Output</b></h4></div>
+<img src="C:\Users\KIIT\Desktop\Wt group assignment\TwoD.jpg" width="300px"><br><br>
+<b><a href="C:\Users\KIIT\Desktop\Wt group assignment\Array.html">Back</a></b>
+<body>
+</html>
